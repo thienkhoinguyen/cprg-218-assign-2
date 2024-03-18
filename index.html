@@ -1,30 +1,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style.css">
     <script src="https://kit.fontawesome.com/fcc878934f.js" crossorigin="anonymous"></script>
     <title>HOKILATTE</title>
 </head>
 
-<header>
-    <nav id="external-nav">
-        <div class="logo"><img src="assets/logo.png">
-        <ul class="nav-links">
-            <li>Collections</li>
-            <li>Artists</li>
-            <li>About</li>
-            <li>Meet the Artist</li>
-            <li><i class="fa-brands fa-instagram"></i></li>
-        </ul>
-            </div>
-    </nav>
-</header>
-
 
 <main>
     <div class="hero-text">
-        <h1>A Unique Art Gallery</h1>
+        <div class="logo"><img src="assets/Logo - Black@2x.png">
+            <ul class="nav-links">
+                <li>Collections</li>
+                <li>Artists</li>
+                <li>About</li>
+                <li>Meet the Artist</li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+        <h1>KHOITHEFISH <br>Crafting unique art<br></h1>
         <h2>Fan art, Visual Art and Digital Art</h2>
     </div>
 </main>
@@ -64,10 +59,10 @@
             </div>
         </li>
         <li class="card">
-            <img src="assets/Mask.jpg" alt="green demon mask">
+            <img src="assets/boarhead.jpg" alt="Man holding boar mask">
             <div class="card-content">
                 <h3 class="header">
-                    Demon Mask
+                    Man with Boar Head
                     <p>from $75.00</p>
                 </h3>
             </div>
@@ -79,8 +74,8 @@
     <div class="split-left">
         <div class="centered">
             <h2>A unique Art Gallery</h2>
-            <h1>Discover our selection of emerging and established artists.</h1>
-            <p>Here is the most unqiue and unexpected celebration</p>
+            <h3>Discover our selection of emerging and established artists.</h3>
+            <p>Visual artist and avid lover of all things anime, comics and videogames. Based in Calgary Alberta. View his recent collection</p>
             <div class="btn">
                 <button id="btn-alert">View More</button>
             </div>
@@ -93,5 +88,22 @@
         </div>
     </div>
 </section>
+
+<section class="footer">
+    <ul class="footer-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact me</a></li>
+    </ul>
+</section>
+
+<div class="copyright">
+    <p>&copy; <span id="currentYear"></span> KHOITHEFISH INC. All Rights Reserved.</p>
+    </div>
+
+  <script>
+    document.getElementById('currentYear').innerHTML = new Date().getFullYear();
+</script>
+
    
 </html>
