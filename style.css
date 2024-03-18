@@ -179,6 +179,53 @@ p{
     color: white;
   }
 
+  /* ACCORDION */
+.accordion{
+  background-color: #4c5b68;
+  color: #ccc;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.active, .accordion:hover{
+  background-color: rgb(19, 24, 24);
+}
+
+.video {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.video iframe {
+  width: 100%;
+  max-width: 896px;
+  height: 504px;
+  margin-right: 4rem;
+  margin-left: 2rem;
+}
+
+.video-content{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+
+.panel {
+  background-color: white;
+}
+
 
   /* FOOTER */
 

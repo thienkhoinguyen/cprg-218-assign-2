@@ -89,6 +89,36 @@
     </div>
 </section>
 
+<section class="accordions">
+    <button class="accordion"><span>INSPIRATION<span><i class="fa-solid fa-paintbrush"></i></button>
+    <div class="panel">
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ImzFgjnSLCc?si=WglcdTqoPPqSevY9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="video-content">
+        <h2>Inspiration from others</h2>
+        <p>As an artist it is important to take inspiration and lessons from other artists, here is a sample video of one of the first artists that inspired me to try digital art specifically using Procreate on the Ipad. Through various online tutorials and lesson I had cultivated my own style<br>This video is from <strong>씰Seal</strong> a Korean digital artist and one of my greatest inspirations!</p>
+    </div>
+    </div>
+</div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+</section>
+
 <section class="footer">
     <ul class="footer-links">
         <h3>info</h3>
