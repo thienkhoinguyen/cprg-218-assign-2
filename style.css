@@ -27,7 +27,7 @@ h3{
 }
 
 p{
-    font-size: 22px;
+    font-size: 28px;
     line-height: 44px;
     color: rgb(21, 20, 22);
     font-family:monospace;
@@ -176,25 +176,26 @@ p{
   /* FOOTER */
 
   .footer{
-    background-color: #333436;
+    background-color: #858d9e;
     color: white;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
     gap: 20px;
   }
 
   .footer-links{
     list-style: none;
-    padding: 0;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
+    font-size: 24px;
   }
 
   .footer-links li {
-    margin-left: 40px;
+    margin-left: 0px;
     margin-bottom: 40px;
   }
 
@@ -204,8 +205,6 @@ p{
 }
 
 .copyright{
-    color: white;
     margin-left: 20px;
-    
   }
 
