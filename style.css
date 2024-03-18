@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+body{
+    background-color:aliceblue;
+}
+
+h1{
+    font-size: 64px;
+    line-height: 32px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 32px;
+    line-height: 32px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 22px;
+    color: rgb(3, 26, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+p{
+    font-size: 22px;
+    line-height: 44px;
+    color: rgb(7, 102, 74);
+    font-family:monospace;
+    font-weight: 500;
+}
+
+nav, .nav-links {
+    display: flex;
+  }
+  
+  nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+  }
+  
+  .nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 2rem;
+    align-items: center;
+  }
+
+  .logo img{
+    width: 100px;
+  }
+
+  /* HERO */
+
+  main{
+    width:100%;
+    height:100vh;
+    background-color: aliceblue;
+    margin-top: 20px;
+    background-image: url(/assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  }
+
+/* CONTENT */
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card{
+    background-color: transparent;
+    width: 24rem;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  img {
+    border-radius: 0.25rem 0.25rem 0 0;
+    height: auto;
+    width: 100%;
+  }
+
+
+/* Content Split */
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.split-left, .split-right{
+    flex: 1;
+}
+
+.split-left{
+    padding-right: 10px;
+}
+
+.split-right{
+    padding-left: 10px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.centered img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 50%;
+  }
+
+ .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#btn-alert {
+    background: transparent;
+    color: #1D1D1D;
+    padding: 14px 40px;
+    border: 1px solid #1D1D1D;
+    border-radius: 32px;
+  }
+
+#btn-alert:hover {
+    background: #349bf0;
+  }
