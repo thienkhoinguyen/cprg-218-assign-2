@@ -30,7 +30,7 @@ p{
     font-size: 22px;
     line-height: 44px;
     color: rgb(21, 20, 22);
-    font-family:'Poppins', sans-serif;
+    font-family:'Poppins-thin', sans-serif;
     font-weight: 500;
 }
 
@@ -136,7 +136,12 @@ p{
 }
 
 .split-left{
-    padding-right: 10px;
+    padding-right: 8px;
+}
+
+.split-left p {
+    padding-right: 8px;
+    margin-top: 62px;
 }
 
 .split-right{
@@ -149,7 +154,7 @@ p{
 
 .centered img {
     width: 100%;
-    max-width: 600px;
+    max-width: 420px;
     border-radius: 50%;
   }
 
@@ -157,6 +162,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 52px;
   }
 
 #btn-alert {
