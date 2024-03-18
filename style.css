@@ -20,17 +20,17 @@ h2{
 }
 
 h3{
-    font-size: 28px;
+    font-size: 24px;
     color: rgb(3, 26, 0);
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
 p{
-    font-size: 28px;
+    font-size: 22px;
     line-height: 44px;
     color: rgb(21, 20, 22);
-    font-family:monospace;
+    font-family:'Poppins', sans-serif;
     font-weight: 500;
 }
 
@@ -61,14 +61,14 @@ p{
   
   .hero-text h1 {
     color: white;
-    font-size: 120px;
-    line-height: 124px;
-    font-weight: 900;
+    font-size: 82px;
+    line-height: 92px;
+    font-weight: 800;
   }
 
 .logo img {
     width: 100%;
-    max-width: 220px;
+    max-width: 100px;
 
 }
 
@@ -82,11 +82,10 @@ p{
     left: 50%;
     transform: translatex(-50%);
     color: white;
-    font-weight: 450;
 }
 
 .nav-links li {
-    font-size: 2.4rem;
+    font-size: 1.6rem;
 }
 
 .nav-links li:last-child {
@@ -111,7 +110,7 @@ p{
 
 .card{
     background-color: transparent;
-    width: 32rem;
+    width: 24rem;
     flex-wrap: wrap;
     text-align: center;
   }
@@ -163,13 +162,15 @@ p{
 #btn-alert {
     background: transparent;
     color: #1D1D1D;
-    padding: 14px 40px;
+    padding: 24px 82px;
     border: 1px solid #1D1D1D;
     border-radius: 32px;
+    font-size: 18px;
   }
 
 #btn-alert:hover {
-    background: #349bf0;
+    background: #4c5b68;
+    color: white;
   }
 
 
@@ -191,7 +192,7 @@ p{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .footer-links li {
