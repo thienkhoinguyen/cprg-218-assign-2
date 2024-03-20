@@ -123,6 +123,7 @@ p{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
+    list-style: none;
 }
 
 .card{
@@ -279,7 +280,6 @@ p{
   }
 
 
-
   /* MEDIA QUERIES */
   
   /* MOBILE */
@@ -297,7 +297,6 @@ p{
     p{
       font-size: 14px;
     }
-
 
     .hero-text h1{
       font-size: 26px;
@@ -363,7 +362,7 @@ p{
   display: none;
 }
 
-  
+  /*CONTENT - MOBILE */
 
   .content{
     align-items: center;
@@ -371,13 +370,24 @@ p{
   }
   .card-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto;
+    justify-content: center;
     gap: 10px;
+
   }
   
   .card{
-    width: 100%;
+    width: 80%;
   }
+  
+  /* SPLIT - MOBILE */
+
+  .info{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 50px;
+  }
+
   
   .accordion {
     padding: 14px;
