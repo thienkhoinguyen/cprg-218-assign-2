@@ -5,14 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/fcc878934f.js" crossorigin="anonymous"></script>
     <title>KHOITHEFISH ART</title>
 </head>
 
+<header>
+    <div class="logo"><img src="assets/Logo_Black.png" alt="koi fish logo">
+    </div>
+
+    <div class="topnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div id="myLinks">
+            <a href="#collections">Collections</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#social"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+</header>
 
 <main>
     <div class="hero-text">
-        <div class="logo"><img src="assets/Logo_Black.png" alt="koi fish logo">
             <ul class="nav-links">
                 <li>Collections</li>
                 <li>Artists</li>
@@ -213,6 +229,14 @@
 
   <script>
     document.getElementById('currentYear').innerHTML = new Date().getFullYear();
+    function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
 </script>
 
    
