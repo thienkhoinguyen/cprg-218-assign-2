@@ -197,6 +197,7 @@ p{
   }
 
   /* ACCORDION */
+  
 .accordion{
   background-color: #4c5b68;
   color: #ccc;
@@ -215,12 +216,18 @@ p{
   background-color: rgb(19, 24, 24);
 }
 
+.panel {
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+
 .video-content{
   display: flex;
   flex-direction: column;
   margin-right: 4rem;
 }
-
 
 .video {
   position: relative;
@@ -240,12 +247,6 @@ p{
   margin-left: 2rem;
 }
 
-
-.panel {
-  background-color: white;
-  display: none;
-  overflow: hidden;
-}
 
 
   /* FOOTER */
@@ -391,29 +392,25 @@ p{
 
 /* ACCORDION - MOBILE */
  
+
 .panel {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.panel .video{
-  margin-top: 20px;
-  width: 100%;
-}
-
-.video-content {
-  margin-bottom: 20px;
+  overflow: hidden;
 }
 
 .video {
   width: 100%;
+  margin-bottom: 20px;
+}
+
+.video-content {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .video iframe {
   width: 100%;
-  max-width: 100%;
   height: auto;
 }
 
@@ -432,5 +429,21 @@ p{
 
   .footer h1{
     font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .panel {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+  }
+
+  .video {
+      order: 1; /* Ensure video appears first */
+  }
+
+  .video-content {
+      order: 2; /* Ensure video content appears second */
   }
 }
