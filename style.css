@@ -311,12 +311,8 @@ p{
       max-width: 50%;
       text-align: center;
       margin: 0 auto;
+
     }
-
-    .main {
-      background-size: cover;
-  }
-
 
 /* HAMBURGER MENU */
 
@@ -417,6 +413,7 @@ p{
   
   .footer-links{
     margin-top: 10px 0;
+    gap: 10px;
   }
 
   .footer h1{
