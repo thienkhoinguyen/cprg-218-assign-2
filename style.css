@@ -461,7 +461,7 @@ p{
 
 
 /* DESKTOP */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) and (max-width: 1441px) {
   .panel {
       display: flex;
       flex-direction: row;
@@ -469,16 +469,28 @@ p{
       text-align: center;
   }
 
+  .card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card {
+    width: 70%;
+  }
+
+  .centered img {
+    max-width: 280px;
+  }
+
   .video {
-      flex: 1;
-  }
+    flex: 1;
+}
 
-  .video-content {
-      flex: 1; 
-  }
+.video-content {
+    flex: 1; 
+}
 
-  .video iframe {
-      width: 100%;
-      height: 100%; 
-  }
+.video iframe {
+    width: 100%;
+    height: 100%; 
+}
 }
