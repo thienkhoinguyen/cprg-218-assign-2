@@ -18,12 +18,12 @@
 
     .hero-text h1{
       font-size: 26px;
-      line-height: 24px;
+      line-height: 28px;
     }
 
     .hero-text h2{
       font-size: 18px;
-      line-height: 22px;
+      line-height: 26px;
     }
 
     .hero-text{
@@ -34,6 +34,7 @@
     }
 
 /* HAMBURGER MENU */
+
 
 .mobile-menu{
   display: block;
@@ -147,10 +148,12 @@
 
   .hero-text h1 {
     font-size: 40px;
+    line-height: 44px;
   }
 
   .hero-text h2 {
     font-size: 28px;
+    line-height: 32px;
   }
 
   .content {
@@ -178,6 +181,7 @@
 
 /* DESKTOP */
 @media screen and (min-width: 769px) and (max-width: 1441px) {
+
   .panel {
       display: flex;
       flex-direction: row;
