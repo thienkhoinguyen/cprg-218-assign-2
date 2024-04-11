@@ -192,15 +192,15 @@ p{
   }
 
 #btn-alert:hover {
-    background: #4c5b68;
+    background: #35383a;
     color: white;
   }
 
   /* ACCORDION */
   
 .accordion{
-  background-color: #4c5b68;
-  color: #ccc;
+  background-color: #0c171f;
+  color: #ffffff;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -213,7 +213,8 @@ p{
 }
 
 .active, .accordion:hover{
-  background-color: rgb(19, 24, 24);
+  background-color: rgb(1, 17, 70);
+  color: #ffffff;
 }
 
 .panel {
