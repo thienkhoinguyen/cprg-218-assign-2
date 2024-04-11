@@ -96,7 +96,7 @@ p{
   }
   
   .hero-text h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 82px;
     line-height: 92px;
     font-weight: 800;
